@@ -1,0 +1,47 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "task2",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint":"eslint .",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startw": "webpack --watch"
+
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivadelina/ajs-homeworks.git"
+  },
+  "keywords": [
+    "moules"
+  ],
+  "author": "ivadelina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivadelina/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/ivadelina/ajs-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "live-server": "^1.1.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
